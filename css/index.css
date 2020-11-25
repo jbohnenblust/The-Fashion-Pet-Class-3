@@ -1,0 +1,17 @@
+.gray-bg{
+    background-color: gray;
+}
+
+#pets{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 1rem;
+    row-gap:1rem;
+    margin-top:1rem;
+}
+
+.pet{
+    background-color: #dedede;
+    border: 1px solid #1e1e1e;
+    padding:1rem;
+}
